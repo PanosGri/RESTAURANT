@@ -1,0 +1,240 @@
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; }
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*-----BODY -----*/
+body {
+	font-size: 16px;	
+}
+
+
+/*-----CONTAINER -----*/
+#container {
+	min-width: 400px;
+	max-width: 1140px;
+}
+
+/*-----HEADER -----*/
+header {
+   background-image: url('../images/viewsmall.jpg');
+    padding: 10%;
+    background-size: cover;
+        text-align: center;
+}
+header h1 {
+    font-size:  4em;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+header h2 {
+    font-size:  3em;
+    font-family: 'Libre Baskerville', serif;
+}
+header h3 {
+    font-size: 2em;
+}
+header ul.icons { 
+    display:flex;
+    float:right;
+}
+
+  .mobileicons{
+      display:block;
+}
+        
+.desktopicons {
+    display:none;
+}
+header ul li a {
+    opacity:0.7;
+}
+
+
+
+/*-----NAVigation -----*/
+nav {
+    background-color:#D4D286;
+}
+nav ul li {text-align: center;
+  
+            }
+nav ul li a {
+    text-decoration: none;
+	display:block;
+	background-color:#c1c1c1;
+    width: 60%;
+    margin-left: 20%;
+    padding: 1%;
+    border-radius:20px;
+    border: 1px solid #DBDBDB;
+    border-top: 0;
+    font-size:1.5em;
+    color: #000000;
+    font-family: Gabriola;
+}
+nav ul li a:hover {
+	background-color:#999;
+}
+
+
+
+/*-----CONTENT -----*/
+#content {
+	min-height: 5em;
+    padding: 15% 10% 15%;
+    background-color: #EDEB9F;
+    position: relative;
+    
+}
+#content .decor{
+    display:block;
+    position: absolute;
+    width: 12%;
+    
+}
+#content #decorupright{
+    top:1%;
+    right:1%;
+}
+#content #decorupleft{
+    top:1%;
+    left:1%;
+    transform: rotate(-90deg);
+}#content #decorbottomright{
+    bottom:1%;
+    right:1%;
+    transform: rotate(90deg);
+}#content #decorbottomleft{
+    bottom:1%;
+    left:1%;
+    transform: rotate(-180deg);
+}
+        
+#content h1 {
+    font-size:2.5em;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    font-family: Gabriola;
+    font-weight:800;
+}
+#content p {
+    line-height:1.25em;
+    text-align: center;
+    padding-bottom: 1em;
+    
+}
+
+/*----- menu -----*/
+#content .menucol {    
+    text-align: center;
+}
+
+#content .menucol ul li{
+    display: inline-block;
+    white-space: nowrap;
+    text-transform: capitalize;
+    font-size: 1.25em;
+    line-height: 1.25em;
+
+}
+#content .menucol a.menu{
+    color:#6E6C20;
+    text-decoration: none;
+}
+
+/*----- reviews -----*/
+
+#content .reviewstitle {
+    font-size:1.1em;
+    text-align: left;
+}
+#content #reviews {
+    font-style: italic;
+}
+#content #reviews .star{
+    font-style: normal;
+    
+}
+#content #reviewsfooter {
+    text-align: center;
+    font-size:1.1em;
+}
+
+/*----- gallery -----*/
+
+#content div#pics {
+    width: 100%; 
+    flex-direction:row;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+#content div#pics figure {
+    width: 44%;
+    padding:3%;
+}
+
+#content #pics a.gallery img{
+    width:100%;
+}
+
+
+
+/*----- contact -----*/
+#content .social{
+    text-decoration: none;
+}
+#content form {
+    margin: auto;
+    width:300px;
+    text-align: center;
+}
+
+#content form label{
+    float:left;
+    width:50px;
+    text-align:left;
+    clear: left;
+    white-space: nowrap;
+}
+#content form input {
+    width:150px;
+    text-align: left;
+}
+
+#content #submitbutton {
+    width:5em;
+    text-align: center;
+}
+#content form #txt{
+    width:50%;
+}
+#content form #txt:hover {
+    width:12em;
+    height:12em;
+}
+/*----- location -----*/
+
+#map {
+    text-align: center;
+}
+
+/*----- FOOTER -----*/
+footer {
+    clear: both;
+	text-align: center;
+	padding: .5em;
+    background-color: #bab86c;
+    font-size: .8em;
+    color:#EDEB9F;
+}
+
+footer a { 
+    text-decoration: none;
+    color:inherit;
+}

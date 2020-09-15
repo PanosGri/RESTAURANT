@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- This start file -->
+<title>Contact us</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!-- LOAD THE LATEST VERSION OF JQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+
+<!----- STYLE SHEETS ----->
+<link href="css/reset.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/phone-default.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/tablet.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/desktop.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"> 
+
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+     
+</head>
+<body>
+<div id="wrapper">
+<div id="container">
+	
+	<header>
+    <hgroup>
+    <h1>Drosopigi</h1> <h2>Restaurant</h2>
+    <h3>Traditional recipes</h3>
+    </hgroup>
+    <ul class="icons">
+        <li><a href=#><img src="images/fb.png" alt="facebook image" class="mobileicons"><img src="images/FBK.png" alt="facebook image" class="desktopicons"></a></li>
+        <li><a href=#><img src="images/twt.png" alt="twitter image" class="mobileicons"><img src="images/TWTR.png" alt="twitter image" class="desktopicons"></a></li>
+        <li><a href=#><img src="images/Inst.png" alt="instagram image" class="mobileicons"><img src="images/INSTA.png" alt="instagram image" class="desktopicons"></a></li>
+	</ul>
+    </header>
+    
+    
+    <!-- page navigation links here -->
+    <nav>
+    <ul>
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="menu.html">Menu</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    	<li><a href="location.html">Location</a></li>
+    	<li><a href="reviews.html">Reviews</a></li>
+    	<li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    
+    
+    <!-- page content here -->
+    <div id="content">
+    <img src="images/decorsmall.png"  id="decorupright" class="decor">
+    <img src="images/decorsmall.png"  id="decorupleft" class="decor">  
+    <img src="images/decorsmall.png"  id="decorbottomright" class="decor">
+    <img src="images/decorsmall.png" id="decorbottomleft" class="decor">
+
+    <h1>Contact us</h1>
+    <p>Follow us on<br>
+    <a href="#0" target="_blank" class="social">
+    <img src="images/fb.png" style="width:30px;"></a>
+    <a href="#0" target="_blank" class="social">
+    <img src="images/Inst.png" style="width:30px;">
+    </a>
+    <a href="#0" target="_blank" class="social">
+    <img src="images/twt.png" style="width:30px;"> 
+    </a>
+    </p>
+    <p>Call us on <br>+30 2733 093283</p>
+    <p>Or leave a message / book a table </p>
+    
+     <form action ="process.php" method="post">
+<div class="formrows">
+        <label for="NM">First Name: </label>
+        <input type="text" id="NM"  placeholder="Enter your name" name="NAME" required>
+        </div>
+    <br>
+       <div class="formrows">
+
+        <label for="LN">Last Name: </label>
+        <input type="text" id="LN" placeholder="Enter your last name" name="LAST NAME" required>
+         </div>
+    <br>
+          <div class="formrows">
+
+           <label for="tel">Telephone: </label>
+            <input type="tel" id="tel" name="telephone" placeholder="691234560" pattern="[0-9]{10-14}">
+         </div>
+    <br>
+       <div class="formrows">
+
+        <label for="eml">Email: </label>
+        <input type="email" id="eml" placeholder="name@mail.com" name="EMAIL" required>
+         </div>
+    <p></p>
+        <label for="msg">Message:</label>
+        <textarea placeholder="Leave your message here..." id="txt"></textarea>
+    <br>
+         <input type="submit" id="submitbutton" value="Send">
+    </form>
+    
+    
+    </div><!-- end content -->
+    
+    
+    <footer>
+        <p><a href="https://www.pgrigorakos.com" target="_blank">&copy; Panagiotis Grigorakos</a> &bull; Drosopigi Restaurant  </p>
+    </footer>
+    
+    </div> <!-- end container -->
+    </div> <!-- end wrapper -->
+</body>
+</html>

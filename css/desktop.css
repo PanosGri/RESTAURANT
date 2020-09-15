@@ -1,0 +1,54 @@
+@media only screen and (min-width: 1141px) {
+/*-----BODY -----*/
+	body {background-color: #969435;}
+
+/*-----WRAPPER -----*/
+	#wrapper {
+        
+    }
+
+/*-----CONTAINER -----*/
+	#container {
+		margin: 2em auto;
+        box-shadow:
+        -30px -30px 30px rgba(0,0,0,0.3),
+         0px -30px 30px rgba(0,0,0,0.3),
+         30px -30px 30px rgba(0,0,0,0.3),
+        -30px  0px 30px rgba(0,0,0,0.3),
+         30px  0px 30px rgba(0,0,0,0.3),
+        -30px  30px 30px rgba(0,0,0,0.3),
+         0px  30px 30px rgba(0,0,0,0.3),
+         30px  30px 30px rgba(0,0,0,0.3);
+	}
+
+/*-----HEADER -----*/
+
+    header ul.icons {
+    }
+
+/*-----NAVigation -----*/
+
+
+
+/*-----CONTENT -----*/
+    /*-----gallery -----*/
+  #content #pics a.gallery img:hover {
+      opacity:0.5;
+    }
+    /*-----contact -----*/
+    
+    #content form .formrows{
+        margin-bottom: -0.5em;
+    }
+    
+    #content form #txt{
+        width:300px;
+        height:200px; max-width: 300px;
+    }
+    #content form #txt:hover {
+        width:300px;
+        height:200px;
+    }
+
+/*----- FOOTER -----*/
+   

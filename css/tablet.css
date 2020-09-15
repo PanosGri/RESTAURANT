@@ -1,0 +1,79 @@
+@media only screen and (min-width: 600px) {
+/*-----BODY -----*/
+	body {}
+
+
+
+/*-----CONTAINER -----*/
+	#container {}
+
+
+
+/*-----HEADER -----*/
+
+header {
+   background-image: url('../images/viewdesktop.jpg');
+    padding: 10%;
+    background-size: cover;
+        text-align: center;
+}
+    .mobileicons{
+        display:none;
+        
+    }
+    .desktopicons{
+        display:block;
+        width:40px;
+    }
+
+/*-----NAVigation -----*/
+    nav ul {
+        padding:0;
+        overflow: hidden;
+    }
+    
+    nav ul li {	
+        float: left;
+        width: 16.666%;
+        margin:0;
+        
+    }
+    
+	nav ul li a {
+        /*clearing phone effects*/
+        margin: 0;
+        border-radius: 0;
+        border-right: solid 1px rgba(0,0,0,0.2);
+        border-left: solid 1px rgba(255,255,255,0.2); 
+        width:100%;
+        background-color:#D4D286;
+        font-size: 2.5em;
+        padding: 0.5em 0 0.3em 0;
+        font-weight: 600;
+        border-color:#969435
+    }
+
+
+
+/*-----CONTENT -----*/
+    #content h1 {
+font-size: 4em;
+    }
+    #content p {
+font-size: 1.5em;
+    }
+    
+#content form #txt {
+        max-width: 150px;
+    }
+    
+#content .reviewstitle {
+font-size: 1.35em;
+    }
+    
+#content #reviewsfooter {
+font-size: 1.35em;
+    }
+    
+/*----- FOOTER -----*/
+   
